@@ -1,0 +1,7 @@
+If ptr = null  ...... and  write overflow >> goto 7  ,, end-if
+set new-noe = ptr
+set ptr = ptr=> next address
+set new-node => data = val
+sert new-node => next = head
+set head = new-node
+exit
