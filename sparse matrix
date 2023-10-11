@@ -1,0 +1,5 @@
+* SPARSE MATRIX : A sparse matrix is a special case of a matrix in which the number of zero elements is much higher than the number of non-zero elements.
+                 As a rule of thumb, if 2/3 of the total elements in a matrix are zeros, it can be called a sparse matrix.
+
+* REQUIRMENTS : 
+              1. storage: a sparse matrix contains 
