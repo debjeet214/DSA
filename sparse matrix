@@ -8,4 +8,11 @@
 
 ** ARRAY REPRESENTATION OF THE SPARSE MATRIX: 
   1. A sparse matrix using a 2-D array leads to the wastage of lots of memory
-2. as we store zero matrix, so empty space will created and wastage of memory will happen.
+  2. as we store zero matrix, so empty space will created and wastage of memory will happen.
+  3. To avoid storage wastage we can store only non-zerto elements.
+
+EX.     |0 4 0 5|
+        |0 0 3 6|
+        |0 0 2 0|
+        |2 0 0 0|     . here the no of non-zero elements = 7
+        |1 0 0 0|     . here total elements = 20    ** sparsity = 7/20 ..  **
