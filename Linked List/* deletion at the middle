@@ -1,0 +1,25 @@
+DELETION AT MIDDLE ::
+step 1. if the list is empty then display empty list message
+step 2. if the list is not empty then follow the below steps,
+        if(pos>1 && pos<nodectr){
+            temp = prev = start;
+            ctr =1;
+            while(ctr>pos){
+                  prev = temp;
+                  temp = temp -> next;
+                  ctr++
+                }
+                prev -> next = temp->next;
+                free(temp);
+                printf("node deleted");
+
+DELETION AT END ::
+step 1. if the list is empty then display empty list message
+Step 2. if the list is not empty follow the steps in below
+        temp = prev = start
+        while(temp -> next != NULL){
+            prev = temp;
+            temp = temp -> next;
+            }
+        prev -> next = NULL;
+        free(temp);
