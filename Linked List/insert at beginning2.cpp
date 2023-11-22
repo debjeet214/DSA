@@ -1,37 +1,21 @@
-#include<stdio.h>  
-#include<stdlib.h>  
-void beginsert(int);  
-struct node  
-{  
-    int data;  
-    struct node *next;  
-};  
-struct node *head;  
-void main ()  
-{  
-    int choice,item;  
-    do   
-    {  
-        printf("\nEnter the item which you want to insert?\n");  
-        scanf("%d",&item);  
-        beginsert(item);  
-        printf("\nPress 0 to insert more ?\n");  
-        scanf("%d",&choice);  
-    }while(choice == 0);  
-}  
-void beginsert(int item)  
-    {  
-        struct node *ptr = (struct node *)malloc(sizeof(struct node *));  
-        if(ptr == NULL)  
-        {  
-            printf("\nOVERFLOW\n");  
-        }  
-        else  
-        {  
-            ptr->data = item;  
-            ptr->next = head;  
-            head = ptr;  
-            printf("\nNode inserted\n");  
-        }  
-          
+#include <iostream>
+struct Node {
+    int data;
+    Node* next;
+};
+void insertAtBeginning(Node*& head, int data) {
+    Node* newNode = new Node{data, head};
+    head = newNode;
+}
+int main() {
+    Node* head = NULL;
+    insertAtBeginning(head, 10); 
+    insertAtBeginning(head, 20);
+    insertAtBeginning(head, 30);
+    insertAtBeginning(head, 90);
+
+    for (Node* curr = head; curr != NULL; curr = curr->next) {
+        std::cout << curr->data << " ";
     }
+    return 0;
+}
