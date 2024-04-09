@@ -1,4 +1,4 @@
-titles :
+1. titles :
 
 "AI-Driven Predictive Inventory Management: Leveraging Customer Sentiment for Stock Optimization"
 
@@ -12,6 +12,7 @@ titles :
 
 
 2. Idea Theme
+
 3. Whether the idea involves use of existing intellectual property or not, give brief detail thereof  (1500)
 4. Newness/uniqueness of the innovation. (900)
 5. Concept and Objective (1500)
