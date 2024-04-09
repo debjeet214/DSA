@@ -10,3 +10,12 @@ titles :
 
 "Revolutionizing Inventory Management: AI-Powered Social Media Insights for Tailored Stocking Strategies
 
+
+2. Idea Theme
+3. Whether the idea involves use of existing intellectual property or not, give brief detail thereof  (1500)
+4. Newness/uniqueness of the innovation. (900)
+5. Concept and Objective (1500)
+6. Potential areas of application in Industry/market in brief (900)
+7. Market data for the potential idea/innovation (1300)
+8. Current development status of innovation (500)
+9. Expected time of completion of the Project (500)
