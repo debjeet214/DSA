@@ -22,3 +22,12 @@ Problems associated with backtracking can be categorized into 3 categories:
 1. Decision Problems: Here, we search for a feasible solution.
 2. Optimization Problems: For this type, we search for the best solution.
 3. Enumeration Problems: We find set of all possible feasible solutions to the problems of this type
+
+<b>Backtracking Problems</b>
+
+N-Queen Problem
+Solve Sudoku
+M-coloring problem
+Rat in a Maze
+The Knight’s tour problem
+Permutation of given String
