@@ -35,8 +35,13 @@ Problems associated with backtracking can be categorized into 3 categories:
 <h2><b>Backtracking Problems</b></h2>
 
 N-Queen Problem
+
 Solve Sudoku
+
 M-coloring problem
+
 Rat in a Maze
+
 The Knight’s tour problem
+
 Permutation of given String
